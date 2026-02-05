@@ -1,0 +1,20 @@
+# Server Configuration
+server:
+  port: 29600
+
+spring:
+  application:
+    name: simple-springboot
+  
+  # Thymeleaf Configuration
+  thymeleaf:
+    cache: false
+    enabled: true
+    prefix: classpath:/templates/
+    suffix: .html
+
+# Logging Configuration
+logging:
+  level:
+    root: INFO
+    com.example.simpleapp: DEBUG
