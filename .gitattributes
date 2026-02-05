@@ -1,0 +1,19 @@
+.gitattributes   git-encoding=iso8859-1 zos-working-tree-encoding=iso8859-1
+.gitignore       git-encoding=iso8859-1 zos-working-tree-encoding=iso8859-1
+*.java    git-encoding=iso8859-1 zos-working-tree-encoding=iso8859-1
+jni/asm/*.java   git-encoding=iso8859-1 zos-working-tree-encoding=ibm-1047
+*.xml     git-encoding=iso8859-1 zos-working-tree-encoding=iso8859-1
+*.h       git-encoding=iso8859-1 zos-working-tree-encoding=ibm-1047
+*.c       git-encoding=iso8859-1 zos-working-tree-encoding=ibm-1047
+*.jcl     git-encoding=iso8859-1 zos-working-tree-encoding=ibm-1047
+*.sh      git-encoding=iso8859-1 zos-working-tree-encoding=ibm-1047
+*.asm     git-encoding=iso8859-1 zos-working-tree-encoding=ibm-1047
+src/main/rexx/* git-encoding=iso8859-1 zos-working-tree-encoding=ibm-1047
+jzos/*          git-encoding=iso8859-1 zos-working-tree-encoding=ibm-1047
+jzos/parmlib/*  git-encoding=iso8859-1 zos-working-tree-encoding=ibm-1047
+jzos/racf/*     git-encoding=iso8859-1 zos-working-tree-encoding=ibm-1047
+jzos/sample/jcl/*   git-encoding=iso8859-1 zos-working-tree-encoding=ibm-1047
+zos/jcl/*           git-encoding=iso8859-1 zos-working-tree-encoding=ibm-1047
+zos/source/*        git-encoding=iso8859-1 zos-working-tree-encoding=ibm-1047
+jzos/authload/*     binary
+jzos/loadlib/*      binary
