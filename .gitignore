@@ -46,6 +46,10 @@ Desktop.ini
 # Logs
 *.log
 logs/
+application.log
+
+# Background process files
+application.pid
 
 # Temporary files
 *.tmp
