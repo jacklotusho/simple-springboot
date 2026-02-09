@@ -62,19 +62,7 @@ This will:
 tail -f application.log
 ```
 
-### Option 2: Using the JAR Runner Script
-
-```bash
-./start-webapp.sh
-```
-
-This script will:
-- Check if Maven and Java are installed
-- Build the application (mvn clean package)
-- Run the application from the JAR file using `java -jar`
-- Show the application URL
-
-### Option 3: Using the Development Run Script
+### Option 2: Using the Development Run Script
 
 ```bash
 ./run-app.sh
@@ -86,13 +74,13 @@ This script will:
 - Start the Spring Boot application with hot reload
 - Show the application URL
 
-### Option 4: Using Maven Directly
+### Option 3: Using Maven Directly
 
 ```bash
 mvn spring-boot:run
 ```
 
-### Option 5: Build and Run JAR Manually
+### Option 4: Build and Run JAR Manually
 
 ```bash
 # Build the project
